@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Menu, X } from '@prajwalshetty/icons';
+import { Menu, X } from '@dashmint/icons';
 import { cn } from '../utils/cn';
 import { Button } from './Button';
 import { motion, AnimatePresence } from 'framer-motion';

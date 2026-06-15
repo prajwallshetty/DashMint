@@ -1,5 +1,5 @@
 {
-  "name": "@prajwalshetty/core",
+  "name": "@dashmint/core",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
@@ -29,7 +29,7 @@
     "@radix-ui/react-tooltip": "^1.1.2",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.3.0",
-    "@prajwalshetty/icons": "workspace:*"
+    "@dashmint/icons": "workspace:*"
   },
   "devDependencies": {
     "react": "^19.0.0",

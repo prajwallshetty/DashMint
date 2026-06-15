@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, ArrowDownRight } from '@prajwalshetty/icons';
+import { ArrowUpRight, ArrowDownRight } from '@dashmint/icons';
 import { cn } from '../utils/cn';
 
 export interface StatCardProps {

@@ -51,7 +51,7 @@ importers:
 
   packages/core:
     dependencies:
-      '@prajwalshetty/icons':
+      '@dashmint/icons':
         specifier: workspace:*
         version: link:../icons
       '@radix-ui/react-avatar':
@@ -100,19 +100,19 @@ importers:
 
   packages/docs:
     dependencies:
-      '@prajwalshetty/charts':
+      '@dashmint/charts':
         specifier: workspace:*
         version: link:../charts
-      '@prajwalshetty/core':
+      '@dashmint/core':
         specifier: workspace:*
         version: link:../core
-      '@prajwalshetty/icons':
+      '@dashmint/icons':
         specifier: workspace:*
         version: link:../icons
-      '@prajwalshetty/templates':
+      '@dashmint/templates':
         specifier: workspace:*
         version: link:../templates
-      '@prajwalshetty/themes':
+      '@dashmint/themes':
         specifier: workspace:*
         version: link:../themes
       react:
@@ -156,13 +156,13 @@ importers:
 
   packages/templates:
     dependencies:
-      '@prajwalshetty/charts':
+      '@dashmint/charts':
         specifier: workspace:*
         version: link:../charts
-      '@prajwalshetty/core':
+      '@dashmint/core':
         specifier: workspace:*
         version: link:../core
-      '@prajwalshetty/icons':
+      '@dashmint/icons':
         specifier: workspace:*
         version: link:../icons
     devDependencies:

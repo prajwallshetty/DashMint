@@ -4,9 +4,9 @@ import {
   StatCard,
   ProjectOverview,
   Grid,
-} from '@prajwalshetty/core';
-import { AreaChart } from '@prajwalshetty/charts';
-import { Activity, ShieldAlert, Cpu } from '@prajwalshetty/icons';
+} from '@dashmint/core';
+import { AreaChart } from '@dashmint/charts';
+import { Activity, ShieldAlert, Cpu } from '@dashmint/icons';
 
 export const StartupAdminPanel: React.FC = () => {
   const members = [

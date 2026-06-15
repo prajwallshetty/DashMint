@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Plus, MoreHorizontal } from '@prajwalshetty/icons';
+import { Plus, MoreHorizontal } from '@dashmint/icons';
 import { cn } from '../utils/cn';
 import { Button } from './Button';
 import { TaskCard, TaskCardProps } from './TaskCard';

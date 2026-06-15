@@ -63,7 +63,7 @@ import {
   AIMessageBubble,
   AITypingIndicator,
   AILoadingStates,
-} from '@prajwalshetty/core';
+} from '@dashmint/core';
 
 import {
   AreaChart,
@@ -71,7 +71,7 @@ import {
   PieChart,
   RevenueChart,
   GrowthChart,
-} from '@prajwalshetty/charts';
+} from '@dashmint/charts';
 
 import {
   SaaSDashboard,
@@ -79,7 +79,7 @@ import {
   AIDashboard,
   FreelancerDashboard,
   StartupAdminPanel,
-} from '@prajwalshetty/templates';
+} from '@dashmint/templates';
 
 import {
   Sparkles,
@@ -94,7 +94,7 @@ import {
   Eye,
   Heart,
   Terminal,
-} from '@prajwalshetty/icons';
+} from '@dashmint/icons';
 
 // Component mapping for the documentation
 export function App() {
@@ -334,11 +334,11 @@ const InstallationDoc = () => (
     <LocalPageHeader title="Installation Guide" description="Step by step setup instructions for your React/Tailwind workspace." />
     <h3 className="text-base font-bold text-foreground mt-4">1. Install Dependencies</h3>
     <p className="text-sm font-semibold text-muted-foreground">Add core dependencies to your React project:</p>
-    <CodeBlock code="npm install @prajwalshetty/core @prajwalshetty/themes @prajwalshetty/icons framer-motion @radix-ui/react-dialog @radix-ui/react-select" />
+    <CodeBlock code="npm install @dashmint/core @dashmint/themes @dashmint/icons framer-motion @radix-ui/react-dialog @radix-ui/react-select" />
     
     <h3 className="text-base font-bold text-foreground mt-6">2. Configure Tailwind CSS v4</h3>
     <p className="text-sm font-semibold text-muted-foreground">Import the DashMint styling directives directly into your global CSS file:</p>
-    <CodeBlock code="@import 'tailwindcss';\n@import '@prajwalshetty/themes';" />
+    <CodeBlock code="@import 'tailwindcss';\n@import '@dashmint/themes';" />
   </div>
 );
 
@@ -409,7 +409,7 @@ const ButtonDocs = () => {
         <Button variant="primary" isLoading>Loading</Button>
       </div>
 
-      <CodeBlock code="import { Button } from '@prajwalshetty/core';\n\n<Button variant='primary'>Primary</Button>" />
+      <CodeBlock code="import { Button } from '@dashmint/core';\n\n<Button variant='primary'>Primary</Button>" />
     </div>
   );
 };
@@ -425,7 +425,7 @@ const InputDocs = () => (
       <Textarea label="Milestone Description" placeholder="Describe critical deliverables..." />
     </div>
 
-    <CodeBlock code="import { Input, Textarea } from '@prajwalshetty/core';\n\n<Input label='Workspace' placeholder='Name' />" />
+    <CodeBlock code="import { Input, Textarea } from '@dashmint/core';\n\n<Input label='Workspace' placeholder='Name' />" />
   </div>
 );
 
@@ -446,7 +446,7 @@ const ToggleDocs = () => (
       </div>
     </div>
 
-    <CodeBlock code="import { Switch, Checkbox } from '@prajwalshetty/core';\n\n<Switch label='Enable notifications' />" />
+    <CodeBlock code="import { Switch, Checkbox } from '@dashmint/core';\n\n<Switch label='Enable notifications' />" />
   </div>
 );
 

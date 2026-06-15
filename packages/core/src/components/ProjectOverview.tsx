@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Calendar, CheckSquare, Layers } from '@prajwalshetty/icons';
+import { Calendar, CheckSquare, Layers } from '@dashmint/icons';
 import { cn } from '../utils/cn';
 import { Avatar, AvatarFallback, AvatarImage } from './Avatar';
 import { motion, HTMLMotionProps } from 'framer-motion';

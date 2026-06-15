@@ -14,11 +14,11 @@
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
-      "@prajwalshetty/core": ["packages/core/src/index.ts"],
-      "@prajwalshetty/charts": ["packages/charts/src/index.ts"],
-      "@prajwalshetty/themes": ["packages/themes/index.css"],
-      "@prajwalshetty/icons": ["packages/icons/src/index.ts"],
-      "@prajwalshetty/templates": ["packages/templates/src/index.ts"]
+      "@dashmint/core": ["packages/core/src/index.ts"],
+      "@dashmint/charts": ["packages/charts/src/index.ts"],
+      "@dashmint/themes": ["packages/themes/index.css"],
+      "@dashmint/icons": ["packages/icons/src/index.ts"],
+      "@dashmint/templates": ["packages/templates/src/index.ts"]
     }
   }
 }

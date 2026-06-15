@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, CheckCircle, AlertTriangle, AlertCircle, Info } from '@prajwalshetty/icons';
+import { X, CheckCircle, AlertTriangle, AlertCircle, Info } from '@dashmint/icons';
 import { cn } from '../utils/cn';
 
 export type ToastVariant = 'info' | 'success' | 'warning' | 'destructive';

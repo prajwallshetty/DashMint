@@ -11,11 +11,11 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "@prajwalshetty/core": "workspace:*",
-    "@prajwalshetty/charts": "workspace:*",
-    "@prajwalshetty/themes": "workspace:*",
-    "@prajwalshetty/icons": "workspace:*",
-    "@prajwalshetty/templates": "workspace:*"
+    "@dashmint/core": "workspace:*",
+    "@dashmint/charts": "workspace:*",
+    "@dashmint/themes": "workspace:*",
+    "@dashmint/icons": "workspace:*",
+    "@dashmint/templates": "workspace:*"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0-alpha.16",

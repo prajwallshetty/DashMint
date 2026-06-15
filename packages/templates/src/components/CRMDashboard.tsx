@@ -6,9 +6,9 @@ import {
   TeamMembersCard,
   Grid,
   Button,
-} from '@prajwalshetty/core';
-import { PieChart } from '@prajwalshetty/charts';
-import { Users, TrendingUp, Award, UserPlus } from '@prajwalshetty/icons';
+} from '@dashmint/core';
+import { PieChart } from '@dashmint/charts';
+import { Users, TrendingUp, Award, UserPlus } from '@dashmint/icons';
 
 export const CRMDashboard: React.FC = () => {
   const pieData = [
