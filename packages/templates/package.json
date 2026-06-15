@@ -1,5 +1,5 @@
 {
-  "name": "@dashmint/templates",
+  "name": "@prajwalshetty/templates",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
@@ -11,9 +11,9 @@
     "build": "tsup src/index.ts --format cjs,esm --dts --clean --external react,react-dom,framer-motion"
   },
   "dependencies": {
-    "@dashmint/core": "workspace:*",
-    "@dashmint/charts": "workspace:*",
-    "@dashmint/icons": "workspace:*"
+    "@prajwalshetty/core": "workspace:*",
+    "@prajwalshetty/charts": "workspace:*",
+    "@prajwalshetty/icons": "workspace:*"
   },
   "devDependencies": {
     "react": "^19.0.0",

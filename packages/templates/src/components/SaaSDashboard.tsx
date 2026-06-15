@@ -7,9 +7,9 @@ import {
   TaskCard,
   Grid,
   Button,
-} from '@dashmint/core';
-import { RevenueChart } from '@dashmint/charts';
-import { DollarSign, Users, CheckSquare, Plus, ArrowUpRight } from '@dashmint/icons';
+} from '@prajwalshetty/core';
+import { RevenueChart } from '@prajwalshetty/charts';
+import { DollarSign, Users, CheckSquare, Plus, ArrowUpRight } from '@prajwalshetty/icons';
 
 export const SaaSDashboard: React.FC = () => {
   const [tasks, setTasks] = React.useState([

@@ -6,8 +6,8 @@ import {
   MeetingScheduler,
   Grid,
   Button,
-} from '@dashmint/core';
-import { Clock, Briefcase, CreditCard } from '@dashmint/icons';
+} from '@prajwalshetty/core';
+import { Clock, Briefcase, CreditCard } from '@prajwalshetty/icons';
 
 export const FreelancerDashboard: React.FC = () => {
   const calendarEvents = [

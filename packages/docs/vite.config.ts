@@ -14,11 +14,11 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@dashmint/core': path.resolve(__dirname, '../core/src/index.ts'),
-      '@dashmint/charts': path.resolve(__dirname, '../charts/src/index.ts'),
-      '@dashmint/themes': path.resolve(__dirname, '../themes/index.css'),
-      '@dashmint/icons': path.resolve(__dirname, '../icons/src/index.ts'),
-      '@dashmint/templates': path.resolve(__dirname, '../templates/src/index.ts')
+      '@prajwalshetty/core': path.resolve(__dirname, '../core/src/index.ts'),
+      '@prajwalshetty/charts': path.resolve(__dirname, '../charts/src/index.ts'),
+      '@prajwalshetty/themes': path.resolve(__dirname, '../themes/index.css'),
+      '@prajwalshetty/icons': path.resolve(__dirname, '../icons/src/index.ts'),
+      '@prajwalshetty/templates': path.resolve(__dirname, '../templates/src/index.ts')
     }
   }
 });

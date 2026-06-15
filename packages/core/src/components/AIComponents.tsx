@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { motion } from 'framer-motion';
-import { Send, Sparkles, User, RefreshCw } from '@dashmint/icons';
+import { Send, Sparkles, User, RefreshCw } from '@prajwalshetty/icons';
 import { cn } from '../utils/cn';
 import { Button } from './Button';
 import { Avatar, AvatarFallback, AvatarImage } from './Avatar';

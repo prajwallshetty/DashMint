@@ -7,9 +7,9 @@ import {
   AIMessage,
   Grid,
   Button,
-} from '@dashmint/core';
-import { GrowthChart } from '@dashmint/charts';
-import { Cpu, CpuIcon, Sparkles } from '@dashmint/icons';
+} from '@prajwalshetty/core';
+import { GrowthChart } from '@prajwalshetty/charts';
+import { Cpu, CpuIcon, Sparkles } from '@prajwalshetty/icons';
 
 export const AIDashboard: React.FC = () => {
   const [prompt, setPrompt] = React.useState('');

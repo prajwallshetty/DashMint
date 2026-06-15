@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as DialogPrimitive from '@radix-ui/react-dialog';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X } from '@dashmint/icons';
+import { X } from '@prajwalshetty/icons';
 import { cn } from '../utils/cn';
 
 export interface DrawerProps {

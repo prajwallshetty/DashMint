@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as DropdownMenuPrimitive from '@radix-ui/react-dropdown-menu';
-import { Bell, Check, Trash } from '@dashmint/icons';
+import { Bell, Check, Trash } from '@prajwalshetty/icons';
 import { cn } from '../utils/cn';
 import { Button } from './Button';
 import { Avatar, AvatarFallback, AvatarImage } from './Avatar';

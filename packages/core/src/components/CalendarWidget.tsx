@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ChevronLeft, ChevronRight } from '@dashmint/icons';
+import { ChevronLeft, ChevronRight } from '@prajwalshetty/icons';
 import { cn } from '../utils/cn';
 
 export interface CalendarEvent {

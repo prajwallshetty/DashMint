@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Mail, MoreVertical } from '@dashmint/icons';
+import { Mail, MoreVertical } from '@prajwalshetty/icons';
 import { cn } from '../utils/cn';
 import { Avatar, AvatarFallback, AvatarImage } from './Avatar';
 import { Button } from './Button';

@@ -35,7 +35,7 @@ packages/
 Install the library packages and peer dependencies:
 
 ```bash
-npm install @dashmint/core @dashmint/themes @dashmint/icons framer-motion @radix-ui/react-dialog @radix-ui/react-select
+npm install @prajwalshetty/core @prajwalshetty/themes @prajwalshetty/icons framer-motion @radix-ui/react-dialog @radix-ui/react-select
 ```
 
 ### 2. Configure Tailwind CSS v4
@@ -44,7 +44,7 @@ Import the DashMint design variables directly at the top of your global CSS styl
 
 ```css
 @import "tailwindcss";
-@import "@dashmint/themes";
+@import "@prajwalshetty/themes";
 ```
 
 ---

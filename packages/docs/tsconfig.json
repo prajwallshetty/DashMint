@@ -6,11 +6,11 @@
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "@dashmint/core": ["../core/src/index.ts"],
-      "@dashmint/charts": ["../charts/src/index.ts"],
-      "@dashmint/themes": ["../themes/index.css"],
-      "@dashmint/icons": ["../icons/src/index.ts"],
-      "@dashmint/templates": ["../templates/src/index.ts"]
+      "@prajwalshetty/core": ["../core/src/index.ts"],
+      "@prajwalshetty/charts": ["../charts/src/index.ts"],
+      "@prajwalshetty/themes": ["../themes/index.css"],
+      "@prajwalshetty/icons": ["../icons/src/index.ts"],
+      "@prajwalshetty/templates": ["../templates/src/index.ts"]
     }
   },
   "include": ["src/**/*"]

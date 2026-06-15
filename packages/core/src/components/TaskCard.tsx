@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Calendar, Tag } from '@dashmint/icons';
+import { Calendar, Tag } from '@prajwalshetty/icons';
 import { cn } from '../utils/cn';
 import { Checkbox } from './Checkbox';
 import { Badge } from './Badge';
