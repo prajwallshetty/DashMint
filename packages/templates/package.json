@@ -1,0 +1,27 @@
+{
+  "name": "@dashmint/templates",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean --external react,react-dom,framer-motion"
+  },
+  "dependencies": {
+    "@dashmint/core": "workspace:*",
+    "@dashmint/charts": "workspace:*",
+    "@dashmint/icons": "workspace:*"
+  },
+  "devDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "framer-motion": "^11.11.0",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0",
+    "react-dom": ">=19.0.0",
+    "framer-motion": ">=11.0.0"
+  }
+}

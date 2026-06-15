@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@dashmint/core": ["../core/src/index.ts"],
+      "@dashmint/charts": ["../charts/src/index.ts"],
+      "@dashmint/themes": ["../themes/index.css"],
+      "@dashmint/icons": ["../icons/src/index.ts"],
+      "@dashmint/templates": ["../templates/src/index.ts"]
+    }
+  },
+  "include": ["src/**/*"]
+}

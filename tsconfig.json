@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@dashmint/core": ["packages/core/src/index.ts"],
+      "@dashmint/charts": ["packages/charts/src/index.ts"],
+      "@dashmint/themes": ["packages/themes/index.css"],
+      "@dashmint/icons": ["packages/icons/src/index.ts"],
+      "@dashmint/templates": ["packages/templates/src/index.ts"]
+    }
+  }
+}

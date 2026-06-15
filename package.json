@@ -1,0 +1,23 @@
+{
+  "name": "dashmint-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium React 19 UI component library for SaaS dashboards and productivity applications.",
+  "scripts": {
+    "dev:docs": "pnpm --filter docs dev",
+    "build": "pnpm --recursive build",
+    "lint": "pnpm --recursive lint",
+    "clean": "pnpm --recursive exec rimraf dist .turbo node_modules"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "rimraf": "^5.0.7",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
