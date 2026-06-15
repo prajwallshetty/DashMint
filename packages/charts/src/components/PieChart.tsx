@@ -107,9 +107,8 @@ export const PieChart: React.FC<PieChartProps> = ({
                 stroke="white"
                 strokeWidth="2.5"
                 animate={{
-                  transform: isHovered
-                    ? `translate(${seg.dx}px, ${seg.dy}px)`
-                    : 'translate(0px, 0px)',
+                  x: isHovered ? seg.dx : 0,
+                  y: isHovered ? seg.dy : 0,
                 }}
                 transition={{ type: 'spring', stiffness: 300, damping: 20 }}
                 onMouseEnter={() => setHoverIndex(i)}

@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@source "../core/src/**/*.tsx";
+@source "../templates/src/**/*.tsx";
+@source "../charts/src/**/*.tsx";
+
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
