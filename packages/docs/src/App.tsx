@@ -79,6 +79,7 @@ import {
   AIDashboard,
   FreelancerDashboard,
   StartupAdminPanel,
+  MobileApp,
 } from '@dashmint/templates';
 
 import {
@@ -209,6 +210,7 @@ export function App() {
                 <SidebarButton active={activeTab === 'tpl-ai'} onClick={() => setActiveTab('tpl-ai')}>AI Workspace</SidebarButton>
                 <SidebarButton active={activeTab === 'tpl-free'} onClick={() => setActiveTab('tpl-free')}>Freelancer Console</SidebarButton>
                 <SidebarButton active={activeTab === 'tpl-startup'} onClick={() => setActiveTab('tpl-startup')}>Startup Admin Panel</SidebarButton>
+                <SidebarButton active={activeTab === 'tpl-mobile'} onClick={() => setActiveTab('tpl-mobile')}>Mobile App</SidebarButton>
               </div>
             </div>
 
@@ -252,6 +254,7 @@ export function App() {
             {activeTab === 'tpl-ai' && <AIDashboard />}
             {activeTab === 'tpl-free' && <FreelancerDashboard />}
             {activeTab === 'tpl-startup' && <StartupAdminPanel />}
+            {activeTab === 'tpl-mobile' && <MobileAppDocs />}
           </main>
         </div>
 
@@ -740,3 +743,42 @@ const ChartsDocs = () => {
     </div>
   );
 };
+
+// 13. Mobile App Template Docs
+const MobileAppDocs = () => {
+  const codeString = `import { MobileApp } from '@dashmint/templates';\n\n// Render this directly in your responsive viewport\n<MobileApp />`;
+
+  return (
+    <div className="flex flex-col gap-6">
+      <LocalPageHeader
+        title="Mobile App Dashboard"
+        description="A premium, self-contained smartphone mockup template optimized for productivity, schedules, and analytics."
+      />
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        {/* Mock phone preview */}
+        <div className="lg:col-span-5 flex justify-center bg-secondary/15 border border-border/60 rounded-[32px] p-6">
+          <MobileApp />
+        </div>
+
+        {/* Info & Code */}
+        <div className="lg:col-span-7 flex flex-col gap-6">
+          <div className="bg-background border p-6 rounded-[26px] flex flex-col gap-4">
+            <h3 className="text-base font-bold text-foreground">Interactive Mock Features</h3>
+            <ul className="text-xs font-semibold text-muted-foreground/90 space-y-2 list-disc list-inside">
+              <li>Self-contained CSS smartphone frame with status bar and notch.</li>
+              <li>Fully animated bottom tab transitions utilizing Framer Motion springs.</li>
+              <li>Interactive AI assistant simulator with dynamic keyboard input replies.</li>
+              <li>Responsive SVG vector charts and circular task completion widgets.</li>
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <span className="text-xs font-bold text-muted-foreground/85 uppercase">Usage Example</span>
+            <CodeBlock code={codeString} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
