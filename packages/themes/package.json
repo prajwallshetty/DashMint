@@ -1,7 +1,9 @@
 {
   "name": "@dashmint/themes",
   "version": "1.0.0",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Tailwind CSS v4 theme directives, pastel colors, and styling configuration for DashMint",
   "main": "dist/index.css",
   "exports": {
