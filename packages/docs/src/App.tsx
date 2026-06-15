@@ -260,7 +260,7 @@ export function App() {
 
         {/* Footer */}
         <footer className="border-t border-border/40 py-6 text-center text-xs font-semibold text-muted-foreground select-none">
-          Made with <Heart className="inline h-3.5 w-3.5 text-red-500 fill-current" /> for modern developers of DashMint.
+          Made with <Heart className="inline h-3.5 w-3.5 text-red-500 fill-current" /> for modern developers of DashMint by <Prajwallshetty></Prajwallshetty>.
         </footer>
       </div>
     </ToastProvider>
